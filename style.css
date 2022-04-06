@@ -235,6 +235,11 @@ header a {
   text-align: center;
 }
 
+.work-content-element :hover {
+  text-align: center;
+  width: 100%;
+}
+
 .work-content-element h3 {
   text-align: center;
   font-size: 12px;
