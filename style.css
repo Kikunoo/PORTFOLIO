@@ -53,10 +53,10 @@ header a {
 }
 
 .home-main-wrap {
-  width: 83%;
+  width: 80%;
   height: 100vh;
   position: absolute;
-  margin-left: 100px;
+  margin-left: 150px;
   text-align: center;
 }
 
@@ -69,18 +69,18 @@ header a {
   font-size: 24px;
   position: absolute;
   transform: rotate(90deg);
-  margin-left: 67%;
+  margin-left: 69%;
   margin-top: 17%;
 }
 
 /*About*/
 .about {
-  padding: 0 150px;
+  padding: 0 100px;
 }
 
 .about h1 {
   font-size: 48px;
-  font-family: "Arial Black";
+  font-family: "Times New Roman";
   color: black;
   text-align: center;
   padding-top: 150px;
@@ -90,7 +90,7 @@ header a {
 .about-me {
   display: flex;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .about-me-img-wrap {
@@ -103,7 +103,7 @@ header a {
 
 .about-me-sentence {
   margin-left: 60px;
-  font-family: "Mamelon-3";
+  font-family: "ヒラギノ明朝 Pro";
 }
 
 .about-me-sentence h2 {
@@ -116,17 +116,15 @@ header a {
 }
 
 .about-skill {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .about-skill h3 {
   width: 13%;
   text-align: center;
   font-size: 24px;
-  font-family: "Arial Black";
-  color: white;
-  background-color: #fbb03b;
-  padding: 50px 0;
+  font-family: "Times New Roman";
+  color: #fbb03b;
   margin-bottom: 50px;
 }
 
@@ -138,15 +136,15 @@ header a {
 
 .skill-content1 th {
   font-size: 18px;
-  font-family: "Arial Black";
-  float: right;
+  font-family: "Times New Roman";
+  /* float: right; */
   margin-right: 30px;
 }
 
 .skill-content2 th {
   font-size: 18px;
-  font-family: "Arial Black";
-  float: right;
+  font-family: "Times New Roman";
+  /* float: right; */
   margin-right: 30px;
 }
 
@@ -167,10 +165,8 @@ header a {
   width: 13%;
   text-align: center;
   font-size: 24px;
-  font-family: "Arial Black";
-  color: white;
-  background-color: #fbb03b;
-  padding: 50px 0;
+  font-family: "Times New Roman";
+  color: #fbb03b;
   margin-bottom: 50px;
 }
 
@@ -185,7 +181,7 @@ header a {
 
 .career-li li {
   font-size: 24px;
-  font-family: "Mamelon-3";
+  font-family: "ヒラギノ明朝 Pro";
 }
 
 .career-when {
@@ -199,13 +195,13 @@ header a {
 
 /*Work*/
 .work {
-  padding: 0 150px;
+  padding: 0 100px;
   margin-bottom: 200px;
 }
 
 .work h1 {
   font-size: 48px;
-  font-family: "Arial Black";
+  font-family: "Times New Roman";
   color: black;
   text-align: center;
   padding-top: 150px;
@@ -214,7 +210,7 @@ header a {
 
 .work-content- {
   padding: 0 90px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: grid;
   gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -224,10 +220,8 @@ header a {
   width: 13%;
   text-align: center;
   font-size: 24px;
-  font-family: "Arial Black";
-  color: white;
-  background-color: #fbb03b;
-  padding: 50px 0;
+  font-family: "Times New Roman";
+  color: #fbb03b;
   margin-bottom: 50px;
 }
 
@@ -235,21 +229,20 @@ header a {
   text-align: center;
 }
 
-.work-content-element :hover {
-  text-align: center;
-  width: 100%;
-}
-
 .work-content-element h3 {
-  text-align: center;
-  font-size: 12px;
-  font-family: "Mamelon-3";
+  /* text-align: center; */
+  font-size: 15px;
+  font-family: "ヒラギノ明朝 Pro";
   padding: 8px 0;
 }
 
 .work-content-wrap {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+}
+
+.work-content-wrap :hover {
+  width: 110%;
 }
 
 .work-content-wrap img {
@@ -265,7 +258,7 @@ header a {
 
 .kikuno h1 {
   font-size: 30px;
-  font-family: "Arial Black";
+  font-family: "ヒラギノ明朝 Pro";
   color: black;
   text-align: center;
   padding-top: 150px;
@@ -276,11 +269,13 @@ header a {
   text-decoration: none;
   color: #fbb03b;
   font-size: 20px;
+  font-family: "ヒラギノ明朝 Pro";
 }
 
 .kikuno-content-img-wrap {
-  width: 45%;
-  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  /* margin: 0 auto; */
   margin-bottom: 100px;
 }
 
@@ -288,12 +283,34 @@ header a {
   width: 100%;
 }
 
+.kikuno-content2-img-wrap {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  /* margin: 0 auto; */
+  margin-bottom: 100px;
+}
+
+.kikuno-content2-img-wrap img {
+  margin-left: 40px;
+  width: 100%;
+}
+
+.kikuno-content video {
+  width: 100%;
+  align-items: center;
+}
+
 .kikuno-content-sentence {
   margin-top: 50px;
 }
 
+.kikuno-content-sentence h2 {
+  margin-bottom: 20px;
+}
+
 .slider {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 80px;
 }
@@ -392,11 +409,11 @@ header a {
 
 .kikuno h2 {
   font-size: 18px;
-  font-family: "Mamelon-3";
+  font-family: "ヒラギノ明朝 Pro";
 }
 
 .kikuno p {
-  font-family: "Mamelon-3";
+  font-family: "ヒラギノ明朝 Pro";
 }
 
 /*フッター*/
