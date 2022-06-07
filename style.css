@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #3c393e;
 }
 
 @font-face {
@@ -41,7 +42,6 @@ header li {
 header a {
   text-decoration: none;
   font-family: "Times New Roman";
-  color: black;
   font-size: 27px;
 }
 
@@ -75,13 +75,12 @@ header a {
 
 /*About*/
 .about {
-  padding: 0 100px;
+  padding: 0 150px;
 }
 
 .about h1 {
   font-size: 48px;
   font-family: "Times New Roman";
-  color: black;
   text-align: center;
   padding-top: 150px;
   margin-bottom: 100px;
@@ -93,11 +92,36 @@ header a {
   margin-bottom: 100px;
 }
 
-.about-me-img-wrap {
-  width: 30%;
+.about-me-pic {
+  position: relative;
+  width: 80%;
 }
 
-.about-me-img-wrap img {
+.about-me-img-wrap1 {
+  width: 90%;
+  position: absolute;
+  align-items: center;
+}
+
+.about-me-img-wrap1 :hover {
+  width: 100%;
+  opacity: 0;
+}
+
+.about-me-img-wrap1 img {
+  width: 100%;
+}
+
+.about-me-img-wrap1 img :hover {
+  width: 100%;
+  opacity: 0;
+}
+
+.about-me-img-wrap2 {
+  width: 90%;
+}
+
+.about-me-img-wrap2 img {
   width: 100%;
 }
 
@@ -120,12 +144,13 @@ header a {
 }
 
 .about-skill h3 {
-  width: 13%;
-  text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Times New Roman";
-  color: #fbb03b;
   margin-bottom: 50px;
+}
+
+.under {
+  background: linear-gradient(transparent 50%, #fbb03b 50%);
 }
 
 .skill-content table {
@@ -135,17 +160,17 @@ header a {
 }
 
 .skill-content1 th {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Times New Roman";
   /* float: right; */
-  margin-right: 30px;
+  /* margin-right: 20px; */
 }
 
 .skill-content2 th {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Times New Roman";
   /* float: right; */
-  margin-right: 30px;
+  /* margin-right: 20px; */
 }
 
 .suuji-img-wrap {
@@ -162,9 +187,7 @@ header a {
 }
 
 .career h3 {
-  width: 13%;
-  text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Times New Roman";
   color: #fbb03b;
   margin-bottom: 50px;
@@ -195,31 +218,31 @@ header a {
 
 /*Work*/
 .work {
-  padding: 0 100px;
+  padding: 0 150px;
   margin-bottom: 200px;
 }
 
 .work h1 {
   font-size: 48px;
   font-family: "Times New Roman";
-  color: black;
   text-align: center;
   padding-top: 150px;
   margin-bottom: 100px;
 }
 
+.DESIGN {
+  align-items: center;
+}
+
 .work-content- {
-  padding: 0 90px;
   margin-bottom: 100px;
   display: grid;
-  gap: 30px;
+  gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .work-content h2 {
-  width: 13%;
-  text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Times New Roman";
   color: #fbb03b;
   margin-bottom: 50px;
@@ -231,14 +254,15 @@ header a {
 
 .work-content-element h3 {
   /* text-align: center; */
-  font-size: 15px;
+  font-size: 18px;
   font-family: "ヒラギノ明朝 Pro";
   padding: 8px 0;
+  color: #3c393e;
 }
 
 .work-content-wrap {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
 }
 
 .work-content-wrap :hover {
@@ -259,7 +283,6 @@ header a {
 .kikuno h1 {
   font-size: 30px;
   font-family: "ヒラギノ明朝 Pro";
-  color: black;
   text-align: center;
   padding-top: 150px;
   margin-bottom: 100px;
@@ -320,6 +343,20 @@ header a {
 }
 
 .slider img {
+  width: 100%;
+}
+
+.slider2 {
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.slider2 li {
+  list-style: none;
+}
+
+.slider2 img {
   width: 100%;
 }
 
@@ -467,5 +504,5 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: #3c393e;
 }
