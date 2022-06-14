@@ -150,7 +150,7 @@ header a {
 }
 
 .under {
-  background: linear-gradient(transparent 50%, #fbb03b 50%);
+  background: linear-gradient(transparent 50%, #e9c634 50%);
 }
 
 .skill-content table {
@@ -189,7 +189,7 @@ header a {
 .career h3 {
   font-size: 30px;
   font-family: "Times New Roman";
-  color: #fbb03b;
+  color: #e9c634;
   margin-bottom: 50px;
 }
 
@@ -244,7 +244,7 @@ header a {
 .work-content h2 {
   font-size: 30px;
   font-family: "Times New Roman";
-  color: #fbb03b;
+  color: #e9c634;
   margin-bottom: 50px;
 }
 
@@ -290,7 +290,7 @@ header a {
 
 .kikuno-content a {
   text-decoration: none;
-  color: #fbb03b;
+  color: #e9c634;
   font-size: 20px;
   font-family: "ヒラギノ明朝 Pro";
 }
@@ -304,6 +304,11 @@ header a {
 
 .kikuno-content-img-wrap img {
   width: 100%;
+}
+
+.kikuno-content-img-wrap img :hover {
+  width: 100%;
+  cursor: url(img/click.png), auto;
 }
 
 .kikuno-content2-img-wrap {
@@ -416,7 +421,7 @@ header a {
 }
 
 .slick-dots .slick-active button {
-  background: #fbb03b; /*ドットボタンの現在地表示の色*/
+  background: #e9c634; /*ドットボタンの現在地表示の色*/
 }
 
 .kikuno-content-video-wrap {
@@ -505,4 +510,47 @@ footer {
 footer a {
   text-decoration: none;
   color: #3c393e;
+}
+
+.button {
+  max-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+a.btn_02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e9c634;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 0 6% 0 12%;
+  color: #e9c634;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  transition-duration: 0.2s;
+}
+a.btn_02:hover {
+  background: #e9c634;
+  color: #fff;
+}
+a.btn_02:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 8px;
+  border-color: transparent transparent transparent #e9c634;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  margin-top: -7px;
+}
+a.btn_02:hover:before {
+  border-color: transparent transparent transparent #fff;
 }
